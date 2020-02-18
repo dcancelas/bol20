@@ -4,6 +4,7 @@ import javafx.event.ActionEvent;
 import listalibros.ActualizarArrayList;
 import listalibros.Libro;
 
+import javax.swing.*;
 import java.util.ArrayList;
 
 public class Controller {
@@ -29,5 +30,12 @@ public class Controller {
     }
     public void opcion6(ActionEvent event) {
         System.exit(0);
+    }
+    public void opcion7(ActionEvent event) {
+        JOptionPane.showMessageDialog(
+                null,
+                "Programa creado por dcancelas <3",
+                "Boletin 20 - Lista de libros",
+                JOptionPane.PLAIN_MESSAGE);
     }
 }
