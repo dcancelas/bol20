@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="275.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bol20.Controller">
+   <children>
+      <Label layoutX="49.0" layoutY="10.0" prefHeight="33.0" prefWidth="203.0" text="Selecciona una opción" textAlignment="CENTER">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+       <Button fx:id="boton1" layoutX="62.0" layoutY="53.0" mnemonicParsing="false" onAction="#opcion1" prefHeight="26.0" prefWidth="177.0" text="Crear libro" />
+      <Button fx:id="boton2" layoutX="62.0" layoutY="86.0" mnemonicParsing="false" onAction="#opcion2" prefHeight="26.0" prefWidth="177.0" text="Borrar libro" />
+      <Button fx:id="boton3" layoutX="62.0" layoutY="119.0" mnemonicParsing="false" onAction="#opcion3" prefHeight="26.0" prefWidth="177.0" text="Amosar libro" />
+      <Button fx:id="boton4" layoutX="62.0" layoutY="152.0" mnemonicParsing="false" onAction="#opcion4" prefHeight="26.0" prefWidth="177.0" text="Borrar libros sen stock" />
+      <Button fx:id="boton4" layoutX="62.0" layoutY="186.0" mnemonicParsing="false" onAction="#opcion5" prefHeight="26.0" prefWidth="177.0" text="Consultar libro" />
+      <Button fx:id="boton5" layoutX="121.0" layoutY="230.0" mnemonicParsing="false" onAction="#opcion6" prefHeight="26.0" prefWidth="60.0" text="Saír" />
+   </children>
+</AnchorPane>
