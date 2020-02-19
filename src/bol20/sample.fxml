@@ -6,7 +6,7 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="275.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bol20.Controller">
    <children>
-      <Label layoutX="56.0" layoutY="9.0" prefHeight="33.0" prefWidth="189.0" text="Selecciona unha opción">
+      <Label contentDisplay="CENTER" layoutY="12.0" prefHeight="33.0" prefWidth="300.0" text="       Selecciona unha opción" textAlignment="CENTER">
          <font>
             <Font size="18.0" />
          </font>
@@ -16,7 +16,7 @@
       <Button fx:id="boton3" layoutX="62.0" layoutY="119.0" mnemonicParsing="false" onAction="#opcion3" prefHeight="26.0" prefWidth="177.0" text="Amosar libros" />
       <Button fx:id="boton4" layoutX="62.0" layoutY="152.0" mnemonicParsing="false" onAction="#opcion4" prefHeight="26.0" prefWidth="177.0" text="Borrar libros sen stock" />
       <Button fx:id="boton5" layoutX="62.0" layoutY="186.0" mnemonicParsing="false" onAction="#opcion5" prefHeight="26.0" prefWidth="177.0" text="Consultar libro" />
-      <Button fx:id="boton6" layoutX="72.0" layoutY="228.0" mnemonicParsing="false" onAction="#opcion6" prefHeight="26.0" prefWidth="74.0" text="Saír" />
-      <Button fx:id="boton7" layoutX="154.0" layoutY="228.0" mnemonicParsing="false" onAction="#opcion7" prefHeight="26.0" prefWidth="74.0" text="Acerca de" />
+      <Button fx:id="boton6" layoutX="62.0" layoutY="228.0" mnemonicParsing="false" onAction="#opcion6" prefHeight="26.0" prefWidth="85.0" text="Saír" />
+      <Button fx:id="boton7" layoutX="154.0" layoutY="228.0" mnemonicParsing="false" onAction="#opcion7" prefHeight="26.0" prefWidth="85.0" text="Acerca de" />
    </children>
 </AnchorPane>

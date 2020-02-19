@@ -38,4 +38,8 @@ public class Controller {
                 "Boletin 20 - Lista de libros",
                 JOptionPane.PLAIN_MESSAGE);
     }
+
+    public void menu1(ActionEvent event) {
+        System.out.println("jaja si");
+    }
 }
